@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <id>vscode.template</id>
+    <version>1.0.1</version>
+    <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-templates/tree/master/src/vscode.template</packageSourceUrl>
+    <owners>chocolatey-community,AdmiringWorm</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>VSCode Package Template</title>
+    <authors>Kim J. Nordmo</authors>
+    <projectUrl>https://github.com/chocolatey-community/chocolatey-templates/tree/master/src/vscode.template</projectUrl>
+    <!-- <iconUrl>https://cdn.rawgit.com/AdmiringWorm/chocolatey-packages/a52bba21db13c816b13a088638b42dae25404c5e/icons/vscode.template.png</iconUrl> -->
+    <copyright>Copyright © 2019-2021 - Kim J. Nordmo, Chocolatey Community</copyright>
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <licenseUrl>https://github.com/chocolatey-community/chocolatey-templates/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-templates/issues</bugTrackerUrl>
+    <tags>templates vscode vscode-extension package</tags>
+    <summary>Starter template for creating packages for Visual Studio Code extensions.</summary>
+    <description>
+
+## Chocolatey VSCode extension template
+
+Starter template for creating packages for Visual Studio Code extensions.
+    </description>
+    <releaseNotes>https://github.com/chocolatey-community/chocolatey-templates/tree/master/src/vscode.template/CHANGELOG.md</releaseNotes>
+    <!-- =============================== -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="templates\**" target="templates" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
