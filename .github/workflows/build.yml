@@ -1,0 +1,26 @@
+name: CI Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: windows-2019
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create all Chocolatey packages
+        run: .\build.ps1 -Build
+        shell: pwsh
+
+      - name: Install all Chocolatey packages
+        run: .\build.ps1 -Install
+        shell: pwsh
+
+      - name: Run Pester tests
+        run: .\build.ps1 -Test
+        shell: pwsh
