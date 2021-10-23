@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Read this before creating packages: https://docs.chocolatey.org/en-us/create/create-packages -->
 <!-- Test your packages in a test environment: https://github.com/chocolatey-community/chocolatey-test-environment -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
@@ -38,7 +38,7 @@
     <summary>__REPLACE__</summary>
     <description>__REPLACE__MarkDown_Okay [[AutomaticPackageNotesNuspec]]</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->      
+    <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.microsoft.com/en-gb/nuget/concepts/package-versioning#version-ranges -->
     <!--<dependencies>
