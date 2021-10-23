@@ -24,9 +24,9 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 }
 
-#https://chocolatey.org/docs/helpers-install-chocolatey-package
+#https://docs.chocolatey.org/en-us/create/functions/install-chocolateypackage
 Install-ChocolateyPackage @packageArgs
 ## If you are making your own internal packages (organizations), you can embed the installer or
 ## put on internal file share and use the following instead (you'll need to add $file to the above)
-# https://chocolatey.org/docs/helpers-install-chocolatey-install-package
+# https://docs.chocolatey.org/en-us/create/functions/install-chocolateyinstallpackage
 #Install-ChocolateyInstallPackage @packageArgs
