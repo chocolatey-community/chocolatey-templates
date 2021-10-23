@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msi.template</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-templates/tree/main/src/msi.template</packageSourceUrl>
+    <owners>Rob Reynolds, Chocolatey-Community</owners>
+    <title>Chocolatey MSI Template</title>
+    <authors>Rob Reynolds, The Chocolatey Team, Chocolatey Community Team</authors>
+    <projectUrl>https://github.com/chocolatey-community/chocolatey-templates</projectUrl>
+    <!-- New icon pending (issue #11) <iconUrl>https://cdn.statically.io/gh/chocolatey/choco/8b6217061a4efe6543622e903996bb8eac012db2/docs/logo/chocolateyicon.png</iconUrl> -->
+    <copyright>RealDimensions Software, LLC - 2016-2019, Chocolatey Community Team 2021-Present</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/chocolatey-community/chocolatey-templates/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msi package template</tags>
+    <projectSourceUrl>https://github.com/chocolatey-community/chocolatey-templates</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-templates/issues</bugTrackerUrl>
+    <summary>MSI Chocolatey template</summary>
+    <description>### Chocolatey MSI Template
+This adds a template for MSI packages.
+
+    </description>
+    <releaseNotes>
+### 1.0.2
+
+Removed aliases from Install script for clarity.
+
+### 1.0.1
+
+Ensure `fileType` is MSI
+
+### 1.0.0
+
+Initial
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="templates\**" target="templates" />
+  </files>
+</package>
