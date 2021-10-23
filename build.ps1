@@ -37,9 +37,9 @@ function Build-AllTemplates {
 }
 
 function Install-PackageTemplates {
-    $names = Get-ChildItem "$PSScriptRoot\src" -Filter '*.nuspec' -Recurse | Where-Object {
+    $names = (Get-ChildItem "$PSScriptRoot\src" -Filter '*.nuspec' -Recurse | Where-Object {
         $null -eq $Names -or $_.BaseName -in $Names
-    } | ForEach-Object BaseName
+    } | ForEach-Object BaseName) -join " "
 
     Start-Process 'choco' -ArgumentList 'install', $names, '-y', '--source', "$packagesDirectory" -Wait -NoNewWindow
 }
