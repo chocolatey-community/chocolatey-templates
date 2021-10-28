@@ -20,9 +20,9 @@ $packageArgs = @{
   checksumType64= 'sha256'
 }
 
-# https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
+# https://docs.chocolatey.org/en-us/create/functions/install-chocolateyzippackage
 Install-ChocolateyZipPackage @packageArgs
 
 ## Unzips a file to the specified location - auto overwrites existing content
-## - https://chocolatey.org/docs/helpers-get-chocolatey-unzip
+## - https://docs.chocolatey.org/en-us/create/functions/get-chocolateyunzip
 #Get-ChocolateyUnzip @packageArgs
