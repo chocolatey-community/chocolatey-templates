@@ -1,20 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>zip.template</id>
     <version>1.0.0</version>
-    <packageSourceUrl>https://github.com/ferventcoder/chocolatey-packages</packageSourceUrl>
-    <owners>Rob Reynolds, Chocolatey</owners>
+    <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-templates/tree/main/src/zip.template</packageSourceUrl>
+    <owners>Rob Reynolds, Chocolatey-Community</owners>
     <title>Chocolatey Zip Template</title>
-    <authors>Rob Reynolds, The Chocolatey Team</authors>
-    <projectUrl>https://github.com/chocolatey/choco</projectUrl>
-    <iconUrl>https://github.com/chocolatey/choco/raw/master/docs/logo/chocolateyicon.gif</iconUrl>
-    <copyright>RealDimensions Software, LLC - 2016-Present</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/chocolatey/choco/master/LICENSE</licenseUrl>
+    <authors>Rob Reynolds, The Chocolatey Team, Chocolatey Community Team</authors>
+    <projectUrl>https://github.com/chocolatey-community/chocolatey-templates</projectUrl>
+    <!-- New icon pending (issue #11) <iconUrl>https://cdn.statically.io/gh/chocolatey/choco/8b6217061a4efe6543622e903996bb8eac012db2/docs/logo/chocolateyicon.png</iconUrl> -->
+    <copyright>RealDimensions Software, LLC - 2016, Chocolatey Community Team 2021-Present</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/chocolatey-community/chocolatey-templates/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <tags>zip package template</tags>
-    <projectSourceUrl>https://github.com/chocolatey/choco</projectSourceUrl>
+    <projectSourceUrl>https://github.com/chocolatey-community/chocolatey-templates</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-templates/issues</bugTrackerUrl>
     <summary>Zip Chocolatey template</summary>
     <description>### Chocolatey Zip Template
 This adds a template for archive (zipped) packages.
