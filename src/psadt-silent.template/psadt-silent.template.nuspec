@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>psadt-silent.template</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-templates/tree/main/src/psadt-silent.template</packageSourceUrl>
+    <owners>Stephen Valdinger, Chocolatey-Community</owners>
+    <title>PSADT Template</title>
+    <authors>Stephen Valdinger, The Chocolatey Team,Chocolatey Community Team</authors>
+    <projectUrl>https://github.com/chocolatey-community/chocolatey-templates</projectUrl>
+    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/psadt-silent.template.png</iconUrl>-->
+    <copyright>Chocolatey Community Team 2023-present</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/chocolatey-community/chocolatey-templates/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/chocolatey-community/chocolatey-templates</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-templates/issues</bugTrackerUrl>
+    <tags>psadt-silent.template SPACE_SEPARATED</tags>
+    <summary>PSADT Chocolatey Template</summary>
+    <description>### Chocolatey PSADT Template
+This adds a template for PSADT applications
+
+	</description>
+    <releaseNotes>
+### 1.0.0
+
+initial
+    </releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="templates\**" target="templates" />
+  </files>
+</package>
